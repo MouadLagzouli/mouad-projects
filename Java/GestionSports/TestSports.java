@@ -7,7 +7,7 @@ public class TestSports {
         Sports rugby = new Rugby();
 
         System.out.println("=== Démonstration ===");
-        sport.play();
+        sport.play(); 
         football.play();
         basketball.play();
         rugby.play();
