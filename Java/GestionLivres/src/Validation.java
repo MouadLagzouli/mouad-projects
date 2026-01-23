@@ -2,7 +2,7 @@ public class Validation {
 
     public static boolean estVide(String s) {
         return s == null || s.trim().isEmpty();
-    }
+    } 
 
     public static void verifierNonVide(String s, String messageErreur) {
         if (estVide(s)) {
