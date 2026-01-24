@@ -5,7 +5,7 @@ public class Catalogue {
 
     public Catalogue() {
         livres = new ArrayList<>();
-    }
+    } 
 
     public boolean ajouter(Livre livre) {
         if (livre == null) return false;
