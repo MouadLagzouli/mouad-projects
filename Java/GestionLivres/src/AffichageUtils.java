@@ -7,7 +7,7 @@ public class AffichageUtils {
             System.out.println("Aucun livre à afficher.");
             return;
         }
-
+ 
         for (int i = 0; i < livres.size(); i++) {
             System.out.println((i + 1) + ") " + livres.get(i).afficher());
         }
