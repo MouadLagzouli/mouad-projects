@@ -72,3 +72,17 @@ public class MenuConsole {
         }
     }
 
+
+
+     private void chercherParISBN() {
+        try {
+            System.out.print("ISBN à chercher: ");
+            String isbn = sc.nextLine();
+
+            Livre l = catalogue.chercherParISBN(isbn.trim());
+            if (l == null) System.out.println("Aucun livre trouvé.");
+            else System.out.println("Trouvé ✅ -> " + l.afficher());
+        } catch (Exception e) {
+            System.out.println("Erreur: " + e.getMessage());
+        }
+    }
