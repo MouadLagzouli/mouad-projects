@@ -27,4 +27,16 @@ public class MenuConsole {
             }
             System.out.println();
         } while (choix != 0);
+ private void afficherMenu() {
+        System.out.println("==== MENU BIBLIOTHÈQUE ====");
+        System.out.println("1) Ajouter un livre");
+        System.out.println("2) Supprimer un livre (par ISBN)");
+        System.out.println("3) Chercher un livre (par ISBN)");
+        System.out.println("4) Chercher des livres (par auteur)");
+        System.out.println("5) Chercher des livres (par titre)");
+        System.out.println("6) Afficher tous les livres");
+        System.out.println("0) Quitter");
+    }
+
+     
     }
