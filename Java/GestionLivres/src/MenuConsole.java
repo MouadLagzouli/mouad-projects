@@ -39,4 +39,16 @@ public class MenuConsole {
     }
 
      
-    }
+ private void ajouterLivre() {
+        try {
+            System.out.print("Titre: ");
+            String titre = sc.nextLine();
+
+            System.out.print("Auteur: ");
+            String auteur = sc.nextLine();
+
+            System.out.print("ISBN (10-13 chiffres): ");
+            String isbn = sc.nextLine();
+
+            Livre livre = new Livre(titre, auteur, isbn);
+            boolean ok = catalogue.ajouter(livre);
