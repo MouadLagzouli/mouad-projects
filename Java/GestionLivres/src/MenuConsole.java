@@ -52,3 +52,23 @@ public class MenuConsole {
 
             Livre livre = new Livre(titre, auteur, isbn);
             boolean ok = catalogue.ajouter(livre);
+            f (ok) System.out.println("Livre ajouté ✅");
+            else System.out.println("Ajout refusé (ISBN déjà existant ou livre invalide).");
+        } catch (Exception e) {
+            System.out.println("Erreur: " + e.getMessage());
+        }
+    }
+
+    private void supprimerLivre() {
+        try {
+            System.out.print("ISBN à supprimer: ");
+            String isbn = sc.nextLine();
+
+            boolean ok = catalogue.supprimerParISBN(isbn);
+            if (ok) System.out.println("Livre supprimé ✅");
+            else System.out.println("Aucun livre trouvé avec cet ISBN.");
+        } catch (Exception e) {
+            System.out.println("Erreur: " + e.getMessage());
+        }
+    }
+
