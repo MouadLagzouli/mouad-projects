@@ -96,6 +96,13 @@ private void chercherParAuteur() {
         AffichageUtils.afficherListe(res);
     }
 
+private void chercherParTitre() {
+        System.out.print("Titre (mot clé): ");
+        String titre = sc.nextLine();
 
+        ArrayList<Livre> res = RechercheLivre.parTitre(catalogue, titre);
+        System.out.println("Résultats:");
+        AffichageUtils.afficherListe(res);
+    }
 
      
