@@ -86,3 +86,16 @@ public class MenuConsole {
             System.out.println("Erreur: " + e.getMessage());
         }
     }
+
+private void chercherParAuteur() {
+        System.out.print("Auteur (mot clé): ");
+        String auteur = sc.nextLine();
+
+        ArrayList<Livre> res = RechercheLivre.parAuteur(catalogue, auteur);
+        System.out.println("Résultats:");
+        AffichageUtils.afficherListe(res);
+    }
+
+
+
+     
