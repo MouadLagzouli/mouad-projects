@@ -105,4 +105,7 @@ private void chercherParTitre() {
         AffichageUtils.afficherListe(res);
     }
 
-     
+     private void afficherTous() {
+        System.out.println("Liste des livres:");
+        AffichageUtils.afficherListe(catalogue.getTous());
+    }
