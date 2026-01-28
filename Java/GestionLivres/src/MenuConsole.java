@@ -109,3 +109,12 @@ private void chercherParTitre() {
         System.out.println("Liste des livres:");
         AffichageUtils.afficherListe(catalogue.getTous());
     }
+ private int lireEntier(String msg) {
+        while (true) {
+            try {
+                System.out.print(msg);
+                return Integer.parseInt(sc.nextLine().trim());
+            } catch (Exception e) {
+                System.out.println("Veuillez entrer un nombre valide.");
+
+    
