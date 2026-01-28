@@ -117,4 +117,7 @@ private void chercherParTitre() {
             } catch (Exception e) {
                 System.out.println("Veuillez entrer un nombre valide.");
 
-    
+   }
+        }
+    }
+} 
