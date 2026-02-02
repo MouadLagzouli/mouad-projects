@@ -12,6 +12,6 @@ public static void verifierNonVide(String s, String msg) {
     }
 public static void verifierSoldeSuffisant(double solde, double montant) {
         if (montant > solde) throw new IllegalArgumentException("Solde insuffisant.");
-    }
+    } 
 }
     
