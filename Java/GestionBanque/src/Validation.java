@@ -14,3 +14,4 @@ public static void verifierSoldeSuffisant(double solde, double montant) {
         if (montant > solde) throw new IllegalArgumentException("Solde insuffisant.");
     }
 }
+    
