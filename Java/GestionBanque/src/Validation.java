@@ -7,3 +7,6 @@ public class Validation {
 public static void verifierNonVide(String s, String msg) {
         if (estVide(s)) throw new IllegalArgumentException(msg);
     }
+ public static void verifierMontantPositif(double montant) {
+        if (montant <= 0) throw new IllegalArgumentException("Le montant doit être > 0.");
+    }
