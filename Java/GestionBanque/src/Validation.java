@@ -1,4 +1,4 @@
-
+ 
 public class Validation {
 
     public static boolean estVide(String s) {
