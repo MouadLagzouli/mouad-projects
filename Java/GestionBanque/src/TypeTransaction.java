@@ -1,1 +1,3 @@
 
+public enum TypeTransaction {
+    DEPOT,
