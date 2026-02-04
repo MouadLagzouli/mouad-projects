@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class RechercheCompte {
+public class RechercheCompte {       
 
     public static Compte parNumero(Banque banque, String num) {
         if (banque == null || Validation.estVide(num)) return null;
