@@ -15,3 +15,8 @@ public class Compte implements Affichable {
         this.solde = soldeInitial;
         this.historique = new ArrayList<>();
     }
+ public String getNom() { return nom; }
+    public void setNom(String nom) {
+        Validation.verifierNonVide(nom, "Le nom ne doit pas être vide.");
+        this.nom = nom.trim();
+    }
