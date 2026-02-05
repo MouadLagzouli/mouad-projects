@@ -6,3 +6,12 @@ public class Banque {
     public Banque() {
         comptes = new ArrayList<>();
     }
+ public boolean ajouterCompte(Compte compte) {
+        if (compte == null) return false;
+
+        // éviter doublon numéro
+        if (RechercheCompte.parNumero(this, compte.getNumCompte()) != null) return false;
+
+        comptes.add(compte);
+        return true;
+    }
