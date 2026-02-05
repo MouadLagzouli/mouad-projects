@@ -24,3 +24,8 @@ public class Banque {
         comptes.remove(c);
         return true;
     }
+ public void deposer(String numCompte, double montant) {
+        Compte c = RechercheCompte.parNumero(this, numCompte);
+        if (c == null) throw new IllegalArgumentException("Compte introuvable.");
+        c.deposer(montant);
+    }
