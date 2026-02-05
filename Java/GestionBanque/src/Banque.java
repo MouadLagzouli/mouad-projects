@@ -15,3 +15,12 @@ public class Banque {
         comptes.add(compte);
         return true;
     }
+ public boolean supprimerCompteParNumero(String numCompte) {
+        Validation.verifierNonVide(numCompte, "Numéro de compte vide.");
+
+        Compte c = RechercheCompte.parNumero(this, numCompte);
+        if (c == null) return false;
+
+        comptes.remove(c);
+        return true;
+    }
