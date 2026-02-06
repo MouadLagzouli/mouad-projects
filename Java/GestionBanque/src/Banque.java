@@ -38,3 +38,13 @@ public void retirer(String numCompte, double montant) {
     public ArrayList<Compte> getComptes() {
         return comptes;
     }    
+public void afficherComptes() {
+        if (comptes.isEmpty()) {
+            System.out.println("Aucun compte dans la banque.");
+            return;
+        }
+        for (int i = 0; i < comptes.size(); i++) {
+            System.out.println((i + 1) + ") " + comptes.get(i).afficher());
+        }
+    }
+}
