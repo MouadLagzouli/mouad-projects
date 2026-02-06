@@ -29,3 +29,12 @@ public class Banque {
         if (c == null) throw new IllegalArgumentException("Compte introuvable.");
         c.deposer(montant);
     }
+public void retirer(String numCompte, double montant) {
+        Compte c = RechercheCompte.parNumero(this, numCompte);
+        if (c == null) throw new IllegalArgumentException("Compte introuvable.");
+        c.retirer(montant);
+    }
+
+    public ArrayList<Compte> getComptes() {
+        return comptes;
+    }    
