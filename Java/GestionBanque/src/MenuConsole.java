@@ -43,4 +43,10 @@ System.out.println();
         System.out.println("8) Afficher historique d’un compte");
         System.out.println("0) Quitter");
     }
-            
+ private void creerCompte() {
+        try {
+            System.out.print("Nom: ");
+            String nom = sc.nextLine();
+
+            System.out.print("Numéro de compte: ");
+            String num = sc.nextLine();           
