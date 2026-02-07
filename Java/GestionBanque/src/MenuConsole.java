@@ -49,4 +49,15 @@ System.out.println();
             String nom = sc.nextLine();
 
             System.out.print("Numéro de compte: ");
-            String num = sc.nextLine();           
+            String num = sc.nextLine();      
+   double solde = lireDouble("Solde initial: ");
+
+            Compte c = new Compte(nom, num, solde);
+            boolean ok = banque.ajouterCompte(c);
+
+            if (ok) System.out.println("Compte créé ✅");
+            else System.out.println("Création refusée (numéro déjà existant).");
+        } catch (Exception e) {
+            System.out.println("Erreur: " + e.getMessage());
+        }
+    }         
