@@ -60,4 +60,18 @@ System.out.println();
         } catch (Exception e) {
             System.out.println("Erreur: " + e.getMessage());
         }
-    }         
+    }    
+
+ private void supprimerCompte() {
+        try {
+            System.out.print("Numéro à supprimer: ");
+            String num = sc.nextLine();
+
+            boolean ok = banque.supprimerCompteParNumero(num);
+            if (ok) System.out.println("Compte supprimé");
+            else System.out.println("Compte introuvable.");
+        } catch (Exception e) {
+            System.out.println("Erreur: " + e.getMessage());
+        }
+    }
+    
