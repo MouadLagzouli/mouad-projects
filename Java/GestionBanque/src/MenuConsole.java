@@ -55,7 +55,7 @@ System.out.println();
             Compte c = new Compte(nom, num, solde);
             boolean ok = banque.ajouterCompte(c);
 
-            if (ok) System.out.println("Compte créé ✅");
+            if (ok) System.out.println("Compte créé ");
             else System.out.println("Création refusée (numéro déjà existant).");
         } catch (Exception e) {
             System.out.println("Erreur: " + e.getMessage());
