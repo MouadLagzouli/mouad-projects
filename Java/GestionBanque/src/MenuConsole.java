@@ -74,4 +74,15 @@ System.out.println();
             System.out.println("Erreur: " + e.getMessage());
         }
     }
-    
+private void deposer() {
+        try {
+            System.out.print("Numéro de compte: ");
+            String num = sc.nextLine();
+            double montant = lireDouble("Montant dépôt: ");
+
+            banque.deposer(num, montant);
+            System.out.println("Dépôt effectué ");
+        } catch (Exception e) {
+            System.out.println("Erreur: " + e.getMessage());
+        }
+    }    
