@@ -91,4 +91,9 @@ private void deposer() {
             System.out.print("Numéro de compte: ");
             String num = sc.nextLine();
             double montant = lireDouble("Montant retrait: ");
-  
+              banque.retirer(num, montant);
+            System.out.println("Retrait effectué ");
+        } catch (Exception e) {
+            System.out.println("Erreur: " + e.getMessage());
+        }
+    }
