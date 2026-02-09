@@ -86,3 +86,9 @@ private void deposer() {
             System.out.println("Erreur: " + e.getMessage());
         }
     }    
+   private void retirer() {
+        try {
+            System.out.print("Numéro de compte: ");
+            String num = sc.nextLine();
+            double montant = lireDouble("Montant retrait: ");
+  
