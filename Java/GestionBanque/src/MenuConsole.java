@@ -97,3 +97,11 @@ private void deposer() {
             System.out.println("Erreur: " + e.getMessage());
         }
     }
+ private void chercherParNumero() {
+        System.out.print("Numéro: ");
+        String num = sc.nextLine();
+
+        Compte c = RechercheCompte.parNumero(banque, num);
+        if (c == null) System.out.println("Aucun compte trouvé.");
+        else System.out.println("Trouvé  " + c.afficher());
+    }
