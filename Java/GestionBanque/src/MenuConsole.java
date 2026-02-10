@@ -114,4 +114,7 @@ private void chercherParNom() {
             System.out.println("Aucun compte trouvé.");
             return;
         }
+ System.out.println("Résultats:");
+        for (Compte c : res) System.out.println("- " + c.afficher());
+    }
     
