@@ -105,3 +105,13 @@ private void deposer() {
         if (c == null) System.out.println("Aucun compte trouvé.");
         else System.out.println("Trouvé  " + c.afficher());
     }
+private void chercherParNom() {
+        System.out.print("Nom (mot clé): ");
+        String nom = sc.nextLine();
+
+        ArrayList<Compte> res = RechercheCompte.parNom(banque, nom);
+        if (res.isEmpty()) {
+            System.out.println("Aucun compte trouvé.");
+            return;
+        }
+    
