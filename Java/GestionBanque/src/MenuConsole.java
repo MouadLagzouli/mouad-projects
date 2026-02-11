@@ -141,4 +141,14 @@ private void chercherParNom() {
             System.out.println("- " + t.afficher());
         }
     }
+ private int lireEntier(String msg) {
+        while (true) {
+            try {
+                System.out.print(msg);
+                return Integer.parseInt(sc.nextLine().trim());
+            } catch (Exception e) {
+                System.out.println("Veuillez entrer un nombre valide.");
+            }
+        }
+    }   
    
