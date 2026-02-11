@@ -150,5 +150,5 @@ private void chercherParNom() {
                 System.out.println("Veuillez entrer un nombre valide.");
             }
         }
-    }   
+    }                      
    
