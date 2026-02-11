@@ -121,7 +121,8 @@ private void chercherParNom() {
  private void afficherTout() {
         banque.afficherComptes();
     }    
- private void afficherHistorique() {
+
+    private void afficherHistorique() {
         System.out.print("Numéro de compte: ");
         String num = sc.nextLine();
 
@@ -141,7 +142,9 @@ private void chercherParNom() {
             System.out.println("- " + t.afficher());
         }
     }
- private int lireEntier(String msg) {
+
+
+     private int lireEntier(String msg) {
         while (true) {
             try {
                 System.out.print(msg);
