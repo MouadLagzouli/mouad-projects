@@ -146,7 +146,7 @@ private void chercherParNom() {
 
      private int lireEntier(String msg) {
         while (true) {
-            try {
+         try {
                 System.out.print(msg);
                 return Integer.parseInt(sc.nextLine().trim());
             } catch (Exception e) {
