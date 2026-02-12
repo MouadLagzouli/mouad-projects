@@ -135,7 +135,7 @@ private void chercherParNom() {
         if (c.getHistorique().isEmpty()) {
             System.out.println("Aucune transaction pour ce compte.");
             return;
-        }
+                   }
 
         System.out.println("Historique de " + c.getNumCompte() + ":");
         for (Transaction t : c.getHistorique()) {
