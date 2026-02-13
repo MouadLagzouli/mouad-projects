@@ -117,8 +117,7 @@ private void chercherParNom() {
  System.out.println("Résultats:");
         for (Compte c : res) System.out.println("- " + c.afficher());
     }
-
- private void afficherTout() {
+private void afficherTout() {
         banque.afficherComptes();
     }    
 
