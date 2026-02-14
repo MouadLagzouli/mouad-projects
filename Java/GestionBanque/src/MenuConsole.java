@@ -61,8 +61,7 @@ System.out.println();
             System.out.println("Erreur: " + e.getMessage());
         }
     }    
-
- private void supprimerCompte() {
+private void supprimerCompte(){
         try {
             System.out.print("Numéro à supprimer: ");
             String num = sc.nextLine();
