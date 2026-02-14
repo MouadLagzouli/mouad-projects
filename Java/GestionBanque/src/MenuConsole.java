@@ -143,7 +143,7 @@ private void afficherTout() {
 
 
      private int lireEntier(String msg) {
-        while (true) {
+        while (true){
          try {
                 System.out.print(msg);
                 return Integer.parseInt(sc.nextLine().trim());
