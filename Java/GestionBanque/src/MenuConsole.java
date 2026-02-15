@@ -111,7 +111,7 @@ private void chercherParNom() {
         ArrayList<Compte> res = RechercheCompte.parNom(banque, nom);
         if (res.isEmpty()) {
             System.out.println("Aucun compte trouvé.");
-            return;
+         return;
         }
  System.out.println("Résultats:");
         for (Compte c : res) System.out.println("- " + c.afficher());
