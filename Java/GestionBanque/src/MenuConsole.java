@@ -141,8 +141,7 @@ private void afficherTout() {
         }
     }
 
-
-     private int lireEntier(String msg) {
+private int lireEntier(String msg) {
         while (true){
          try {
                 System.out.print(msg);
