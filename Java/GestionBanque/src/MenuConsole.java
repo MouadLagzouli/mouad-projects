@@ -25,8 +25,8 @@ int choix;
                 case 7: afficherTout(); break;
                 case 8: afficherHistorique(); break;
                 case 0: System.out.println("Au revoir !"); break;
-                default: System.out.println("Choix invalide.");
-            }
+                default: System.out.println("Choix invalide.");        }
+            
 System.out.println();
         } while (choix != 0);
     }
