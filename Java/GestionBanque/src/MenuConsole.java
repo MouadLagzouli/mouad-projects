@@ -41,8 +41,8 @@ System.out.println();
         System.out.println("6) Chercher des comptes (par nom)");
         System.out.println("7) Afficher tous les comptes");
         System.out.println("8) Afficher historique d’un compte");
-        System.out.println("0) Quitter");
-    }
+        System.out.println("0) Quitter");        }
+
  private void creerCompte() {
         try {
             System.out.print("Nom: ");
