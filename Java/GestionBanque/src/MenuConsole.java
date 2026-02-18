@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class MenuConsole {
    private Banque banque;                    
-    private Scanner sc;
+    private Scanner sc; 
     
     public MenuConsole() {
         banque = new Banque();
