@@ -127,7 +127,7 @@ private void afficherTout() {
         Compte c = RechercheCompte.parNumero(banque, num);
         if (c == null) {
             System.out.println("Compte introuvable.");
-            return;
+                           return;
         }
 
         if (c.getHistorique().isEmpty()) {
