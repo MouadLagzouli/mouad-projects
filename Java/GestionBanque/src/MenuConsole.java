@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;  
 
-public class MenuConsole {
+public class MenuConsole {    
    private Banque banque;                    
     private Scanner sc; 
     
