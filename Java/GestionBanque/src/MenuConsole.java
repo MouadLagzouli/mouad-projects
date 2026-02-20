@@ -28,7 +28,7 @@ int choix;
                 default: System.out.println("Choix invalide.");        }
             
 System.out.println();
-        } while (choix != 0);
+        } while (choix != 0);    
     }
 
     private void afficherMenu() {
