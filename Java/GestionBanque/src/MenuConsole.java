@@ -10,7 +10,7 @@ public class MenuConsole {
         sc = new Scanner(System.in);
     }
 public void demarrer() {
-int choix;
+int choix;   
    do {
             afficherMenu();
             choix = lireEntier("Votre choix: ");
