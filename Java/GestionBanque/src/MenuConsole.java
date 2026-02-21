@@ -15,7 +15,7 @@ int choix;
             afficherMenu();
             choix = lireEntier("Votre choix: ");
 
-            switch (choix) {
+                switch (choix) {
                 case 1: creerCompte(); break;
                 case 2: supprimerCompte(); break;
                 case 3: deposer(); break;
