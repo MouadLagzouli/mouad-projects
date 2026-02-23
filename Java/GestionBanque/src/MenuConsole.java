@@ -12,7 +12,7 @@ public class MenuConsole {
 
     public void demarrer() { 
         int choix;
-        do {
+      do {
             afficherMenu();
             choix = lireEntier("Votre choix: ");
 
