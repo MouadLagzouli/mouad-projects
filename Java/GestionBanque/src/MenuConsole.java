@@ -6,7 +6,7 @@ public class MenuConsole {
     private Scanner sc;
 
     public MenuConsole() {
-        banque = new Banque();
+        banque = new Banque();    
         sc = new Scanner(System.in);
     }
 
