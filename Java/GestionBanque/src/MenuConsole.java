@@ -6,13 +6,13 @@ public class MenuConsole {
     private Scanner sc;
 
     public MenuConsole() {
-        banque = new Banque();    
+        banque = new Banque();
         sc = new Scanner(System.in);
     }
 
-    public void demarrer() { 
+    public void demarrer() {
         int choix;
-      do {
+        do {
             afficherMenu();
             choix = lireEntier("Votre choix: ");
 
