@@ -5,7 +5,7 @@ public class Transaction implements Affichable {
 public Transaction(TypeTransaction type, double montant) {
         this.type = type;
         this.montant = montant;
-    }
+    }    
 
     public TypeTransaction getType() { return type; }
     public double getMontant() { return montant; }
