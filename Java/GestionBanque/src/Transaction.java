@@ -13,5 +13,5 @@ public Transaction(TypeTransaction type, double montant) {
     @Override
     public String afficher() {
         return "Transaction: " + type + " | Montant: " + montant;
-    }
-}
+     }
+  }
