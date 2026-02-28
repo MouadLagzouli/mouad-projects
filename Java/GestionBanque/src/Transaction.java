@@ -3,7 +3,7 @@ public class Transaction implements Affichable {
     private TypeTransaction type;
     private double montant;
 public Transaction(TypeTransaction type, double montant) {
-        this.type = type;      
+        this.type = type;     
         this.montant = montant;
     }    
 
