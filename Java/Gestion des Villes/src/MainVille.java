@@ -23,7 +23,7 @@ public class MainVille {
 
         System.out.println("\n=== Polymorphisme ===");
         Ville[] villes = { v1, c1, p1 };
-        for (Ville v : villes) {
+        for (Ville v : villes ) {
             v.description();
         }
     }
