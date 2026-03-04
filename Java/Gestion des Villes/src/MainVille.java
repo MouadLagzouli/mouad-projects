@@ -11,7 +11,7 @@ public class MainVille {
         c1.description();
         p1.description();
 
-        System.out.println("\n=== toString() ===");
+        System.out.println("\n===== toString() ====");
         System.out.println(v1);
         System.out.println(c1);
         System.out.println(p1);
