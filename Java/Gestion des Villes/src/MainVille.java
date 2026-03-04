@@ -6,7 +6,7 @@ public class MainVille {
         Capitale c1 = new Capitale("Rabat", "Maroc", 580000);
         Patelin p1 = new Patelin("PetitDouar", 1500); 
 
-        System.out.println("=== Descriptions ===");
+        System.out.println("==== Descriptions ====");
         v1.description();
         c1.description();
         p1.description();
