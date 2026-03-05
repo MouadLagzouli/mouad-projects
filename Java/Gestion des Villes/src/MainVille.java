@@ -21,7 +21,7 @@ public class MainVille {
         System.out.println(c1.getNom() + " -> catégorie : " + c1.categorie());
         System.out.println(p1.getNom() + " -> catégorie : " + p1.categorie());
 
-        System.out.println("\n=== Polymorphisme ===");
+        System.out.println("\n===== Polymorphisme =====");
         Ville[] villes = { v1, c1, p1 };
         for (Ville v : villes ) {
             v.description();
