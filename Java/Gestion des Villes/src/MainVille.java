@@ -15,7 +15,6 @@ public class MainVille {
         System.out.println(v1);
         System.out.println(c1);
         System.out.println(p1);
-
         System.out.println("\n===== Catégories =====");
         System.out.println(v1.getNom() + " -> catégorie : " + v1.categorie());
         System.out.println(c1.getNom() + " -> catégorie : " + c1.categorie());
