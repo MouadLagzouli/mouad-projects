@@ -7,7 +7,7 @@ public class Manutentionnaire extends Employe {
     }
 
     @Override
-    public double calculerSalaire() {
+    public double calculerSalaire()  {
         return nbHeuresMensuelles * 65.0;
     }
 
