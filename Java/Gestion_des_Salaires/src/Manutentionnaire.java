@@ -12,7 +12,7 @@ public class Manutentionnaire extends Employe {
     }
 
     @Override
-    public String getNom() {
+    public String getNom()  {
         return "Le manut. " + Prenom + " " + nom;
     }
 }
