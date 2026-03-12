@@ -11,7 +11,7 @@ public class Equation {
     }
 
     public double calculerDelta() {
-        return b * b - 4 * a * c;
+        return b  *  b - 4 * a * c;
     }
 
     public void afficherSolutions() {
