@@ -4,7 +4,7 @@ public class Equation {
     private double b;
     private double c;
 
-    public Equation(double a, double b, double c) {
+    public Equation(double a, double b, double c ) {
         this.a = a;
         this.b = b;
         this.c = c;
