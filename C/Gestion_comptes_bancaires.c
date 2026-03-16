@@ -12,6 +12,7 @@ int main() {
     int *tabCpt;
     float *tabSoldes;
     int N;
+    
     const int MAX = 50;
 
     /* Saisie de N */
