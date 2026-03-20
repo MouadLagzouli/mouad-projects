@@ -6,7 +6,7 @@ void AffichComptes(int *tabCpt, float *tabSoldes, int N);
 int  Rechercher(int *tabCpt, int num, int N );
 void Ajouter(int num, float s, int *tabCpt,  float *tabSoldes, int *N, int MAX);
 void Deposer(float montant, int num, float *tabSoldes, int *tabCpt, int N);
-void Retirer(float montant, int num, float *tabSoldes,  int *tabCpt, int N);
+void Retirer(float montant,int num, float *tabSoldes,  int *tabCpt, int N);
 
 int main() {
     int *tabCpt;
