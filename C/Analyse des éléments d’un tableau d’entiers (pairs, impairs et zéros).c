@@ -9,7 +9,7 @@ void fct3(int t[], int n, int *np, int *nimp, int *nbz) {
     int i;
 
     for (i = 0; i < n; i++) {
-        if (t[i] == 0) {
+        if  (t[i] == 0) {
             (*nbz)++;
         } else if (t[i] % 2 == 0) {
             (*np)++;
