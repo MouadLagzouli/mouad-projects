@@ -13,7 +13,7 @@ void fct3(int t[], int n, int *np, int *nimp, int *nbz) {
             (*nbz)++;
         } else if (t[i] % 2 == 0) {
             (*np)++;
-        } else {
+        }  else {
             (*nimp)++;
         }
     }
