@@ -19,7 +19,7 @@ void fct3(int t[], int n, int *np, int *nimp, int *nbz) {
     }
 }
 
-int main() {
+int  main () {
     int N, i;
     int NP = 0, NIMP = 0, NBZ = 0;
     int T[50];
