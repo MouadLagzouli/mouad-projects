@@ -6,7 +6,7 @@ int ordre_tableau(const int t[], int n) {
         if (t[i] > t[i + 1]) croissant = 0;
         if (t[i] < t[i + 1]) decroissant = 0;
     }
-    if (croissant) return 1;
+    if  (croissant) return 1;
     if (decroissant) return -1;
     return 0;
 }
