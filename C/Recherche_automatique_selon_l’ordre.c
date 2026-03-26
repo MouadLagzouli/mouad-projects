@@ -8,7 +8,7 @@ int ordre_tableau(const int t[], int n) {
     }
     if  (croissant) return 1;
     if (decroissant) return -1;
-    return 0;
+    return 0 ;
 }
 
 int recherche_lineaire(const int t[], int n, int val) {
