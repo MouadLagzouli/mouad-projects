@@ -13,7 +13,8 @@ int ordre_tableau(const int t[], int n) {
 
 int recherche_lineaire(const int t[], int n, int val) {
     for (int i = 0; i < n; i++) if (t[i] == val) return i;
-    return -1;
+    return 
+        -1;
 }
 
 int dicho_croissant(const int t[], int n, int val) {
