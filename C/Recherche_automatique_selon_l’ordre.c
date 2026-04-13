@@ -2,7 +2,7 @@
 
 int ordre_tableau(const int t[], int n) {
     int croissant = 1, decroissant = 1;
-    for (int i = 0; i < n - 1; i++) {
+    for (int i = 0; i < n - 1; i++) { 
         if (t[i] > t[i + 1]) croissant =  0;
         if (t[i] < t[i + 1]) decroissant = 0;
     }
