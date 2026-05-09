@@ -1,7 +1,7 @@
 public class Equation {
 
     private double a;
-    private double b;
+    private double b; 
     private double c;
 
     public Equation(double a, double b, double c ) {
@@ -15,7 +15,7 @@ public class Equation {
     }
 
     public void afficherSolutions() {
-        double delta = calculerDelta();
+    double delta = calculerDelta();
 
         if (delta > 0) {
             double x1 = (-b + Math.sqrt(delta)) / (2 * a);
