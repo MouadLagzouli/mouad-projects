@@ -32,5 +32,10 @@ int main() {
         printf("Entrez l'élément %d: ", i + 1);
         scanf("%d", &liste[i]);
     }
+  compterRepetitions(liste, n);
 
+    return 0;
+}
+
+   
   
