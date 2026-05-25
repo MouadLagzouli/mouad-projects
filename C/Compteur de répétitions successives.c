@@ -15,7 +15,7 @@ compteur =1;
             printf("  %d    |     %d\n", valeur, compteur);
             valeur   = liste[i];
             compteur = 1;
-        }
+ }
     }
 
     printf("  %d    |     %d\n", valeur, compteur);
