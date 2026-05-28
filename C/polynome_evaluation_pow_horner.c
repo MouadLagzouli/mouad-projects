@@ -39,5 +39,5 @@ int main() {
     printf("P(x) avec pow()    = %.6f\n", P_pow);
     printf("P(x) avec Horner   = %.6f\n", P_horner);
 
-    return 0;
+return 0;
 }
