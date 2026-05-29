@@ -10,7 +10,7 @@ int main() {
     do {
         printf("Entrez le degre du polynome n (1 <= n <= 100) : ");
         scanf("%d", &n);
-    } while (n < 1 || n > 100);
+    } while (n < 1 || n >  100);
 
     // Lecture des coefficients A[0]..A[n]
     printf("Entrez les coefficients du polynome (A[0]..A[%d]) :\n", n);
