@@ -8,7 +8,7 @@ int main(void)
     int L, C, i, j;
     FILE *fp;
 
-    /* Lecture des dimensions */
+    //Lecture des dimensions //
     do {
         printf("Donnez les dimensions de la matrice (L C) :\n");
         scanf("%d %d", &L, &C);
